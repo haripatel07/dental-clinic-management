@@ -1,0 +1,89 @@
+/* General reset for margins and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Setting a clean font */
+    background-color: #f0f9f7; /* Light background color for a fresh feel */
+}
+
+/* Form Container */
+.form-container {
+    max-width: 500px; /* Limit the width for better readability */
+    margin: 50px auto; /* Center the form horizontally and add some top margin */
+    padding: 20px; /* Add padding around the form */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Tooth Icon */
+.tooth-icon {
+    display: block; /* Block display for centering */
+    margin: 0 auto 20px; /* Center the icon and add space below */
+    width: 80px; /* Fixed width for the icon */
+}
+
+/* Heading Styles */
+h3 {
+    text-align: center; /* Center the heading */
+    color: #007b5f; /* Dark green color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Form Item Styles */
+.form-item {
+    margin-bottom: 16px; /* Space between form items */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #007b5f; /* Green border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for inputs */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #007b5f; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.btn:hover {
+    background-color: #005f47; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+
+    h3 {
+        font-size: 24px; /* Larger heading on smaller screens */
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="date"] {
+        font-size: 14px; /* Smaller font size for inputs */
+    }
+
+    .btn {
+        width: 100%; /* Full width button on smaller screens */
+    }
+}

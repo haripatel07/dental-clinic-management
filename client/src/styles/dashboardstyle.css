@@ -1,0 +1,105 @@
+/* Global Styles */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#root, .admin-dashboard {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Admin Dashboard Layout */
+
+.admin-dashboard {
+  background-color: #fff;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+  background: linear-gradient(to right, rgb(26, 116, 146), rgb(53, 178, 236));
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.header h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+/* Button Style */
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin : 0;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Table Section */
+
+.table-container {
+  flex-grow: 1; /* fill remaining space */
+  padding: 20px 30px;
+  overflow-y: auto;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.ant-table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.ant-table thead > tr {
+  background-color: #e6f7ff;
+}
+
+.ant-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive Adjustments */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .table-container {
+    padding: 15px;
+  }
+}
