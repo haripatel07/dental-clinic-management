@@ -8,10 +8,10 @@ This was my first full-stack project—a clinic management system for scheduling
 
 ## 🌟 Features
 
+## 🌟 Features
+
 - **Dental Disease Checker**: Patients can upload dental images to check for probable dental diseases using an AI model.
   - Integrated with my ML project: [DentalDiseasesClassification](https://github.com/haripatel07/DentalDiseasesClassification)
-
-
 - User authentication (patients & admins)
 - **Appointment booking** with date/time selector
 - Patient dashboard: view and cancel bookings
@@ -19,7 +19,8 @@ This was my first full-stack project—a clinic management system for scheduling
 - Responsive front‑end with React and React Router
 - RESTful API built on Node.js and Express
 - Data storage using MongoDB with Mongoose
-- Optional: file uploads (e.g. dental X‑rays)
+- **Google Places Integration**: Uses Google Places API to autofill clinic addresses and enhance location-based services.
+- **Google Reviews Widget**: Embedded real-time reviews using [elfsight Google Reviews widget](https://elfsight.com/google-reviews-widget/).
 
 ---
 
